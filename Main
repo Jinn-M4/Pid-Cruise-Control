@@ -85,6 +85,7 @@ plt.title("PID Cruise Control Performance")
 plt.legend()
 plt.grid()
 
+plt.savefig("pid_speed.png", dpi=300)
 plt.show()
 
 # =========================
@@ -99,4 +100,5 @@ plt.ylabel("Error")
 plt.title("Error Convergence")
 plt.grid()
 
+plt.savefig("pid_error.png", dpi=300)
 plt.show()
