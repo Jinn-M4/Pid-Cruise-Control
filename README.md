@@ -1,12 +1,12 @@
 # PID-based Cruise Control System Simulation
 
-## 📌 Overview
+## Overview
 This project implements a PID-based cruise control system to maintain a target vehicle speed of 60 km/h.  
 The controller adjusts throttle input based on the error between the target speed and the current speed, simulating a vehicle’s longitudinal dynamics.
 
 ---
 
-## ⚙️ System Description
+## System Description
 - Target Speed: 60 km/h  
 - Control Method: PID (Proportional–Integral–Derivative)  
 - Simulation Environment: Python  
@@ -16,7 +16,7 @@ A simplified vehicle model is used, including resistance and external disturbanc
 
 ---
 
-## 🚗 Key Features
+## Key Features
 - Implementation of PID controller for speed regulation  
 - Vehicle dynamics simulation (longitudinal motion)  
 - Disturbance handling (simulated road slope after 5 seconds)  
@@ -25,7 +25,7 @@ A simplified vehicle model is used, including resistance and external disturbanc
 
 ---
 
-## 📊 Results
+## Results
 
 ### Speed Tracking Performance
 - The vehicle speed initially rises rapidly and shows a small overshoot  
@@ -41,7 +41,7 @@ A simplified vehicle model is used, including resistance and external disturbanc
 
 ---
 
-## 🧠 Technical Insights
+## Technical Insights
 - Increasing **Kp** improves response speed but may cause overshoot  
 - **Ki** eliminates steady-state error  
 - **Kd** reduces oscillations and improves stability  
@@ -50,13 +50,7 @@ The controller parameters were tuned to balance responsiveness and stability.
 
 ---
 
-## 🛠️ Tech Stack
-- Python  
-- Matplotlib  
-
----
-
-## 🎯 Conclusion
+## Conclusion
 This project demonstrates the application of PID control in vehicle speed regulation.  
 It highlights key control system concepts such as stability, disturbance rejection, and steady-state error minimization.
 
